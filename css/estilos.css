@@ -1,0 +1,148 @@
+
+/*estilos Generales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* En mi header tengo img, nav,ul,li*/ 
+header{
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 16px;
+    height: 40px;
+    width: 100%;
+    position:relative;
+    top: 0;
+    left: 0;
+     box-shadow:0 3px 10px-5px ;
+    background-color:darksalmon;
+    box-shadow: rgb(245, 22, 22) 5px 5px 10px inset;
+}
+/*main: section inicio (figure,imagen,article,h1,h2,p)*/
+a{
+text-decoration: none;
+flex: auto;
+margin: 20px;
+
+}
+img{
+    border-radius: 50%;
+}
+#inicio{
+    
+        display: flex;          
+       height: 70%;
+       justify-content: space-between;
+       align-items: center;
+       letter-spacing: normal;
+       padding: 50px;
+       margin: 50px;
+       height: auto;
+       font-size: 18px;
+
+}
+li.menu-item:hover{
+background-color:cyan ;
+  transition:background-color 0.3s ;  
+}
+
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  height;align-items: center;
+   width: auto;
+  padding: auto;
+  margin: 10px;
+  text-align: justify; 
+}
+nav,ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:40px;
+}
+
+
+h3{
+    background-color: darksalmon;
+    border-radius: 50px;
+    width: 200px;          
+}
+h4{
+text-align: center;    
+font-size: 30px;    
+} 
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(239, 112, 8, 0.414);
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+   
+      
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+
+footer{
+   text-align: center; 
+   padding: 20px;
+   background-color: darksalmon;
+   box-shadow: rgb(245, 22, 22) 5px 5px 10px inset;
+
+}
+
+@media(min-width:1024px){
+section#inicio{
+    flex-direction: row;
+} 
+h1,h2{
+font-size:30px;  
+}   
+
+}
+
+   
+
+
+
+
+
+    
+
+
+    
+     
+        
+
+
+
+
+    
+
+
+    
+      
+
+
+   
+    
+
+
+
+
+
+
+
+
+
